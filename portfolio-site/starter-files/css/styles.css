@@ -1,3 +1,101 @@
+/*
+COLOR PALETTE
+
+LIGHT PINK #F0C2DB
+HOT PINK #EC008C
+WHITE #FFFFFF
+*/
+
+/* GLOBAL STYLES
+-----------------------------------*/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+html, body{
+    height: 100%;
+}
 body {
-    background: papayawhip;
+    background: #F0C2DB;
+    margin: 0;
+}
+
+/* links */ 
+a {
+    color: #6a5acd;
+
+}
+a:hover {
+    color: #dda0dd;
+    text-decoration: none;
+}
+footer a {
+    color: #dda0dd;
+}
+footer a:hover {
+    color: #6a5acd;
+}
+.btn {
+    background: #e8d7e2;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+/* HOME
+-----------------------------------*/
+.home{
+    background: url(../images/space.jpg) no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9);
+}
+
+/* RESUME
+-----------------------------------*/
+.resume header::before {
+    background: url(../images/comagirl-logo.png) center;
+    background-size: cover;
+   content: "";
+   display: block;
+   height: 375px;
+}
+/* Profile
+-----------------------------------*/
+
+/* Projects
+-----------------------------------*/
+
+/* Work Experience
+-----------------------------------*/
+
+/* Education
+-----------------------------------*/
+
+/* FOOTER
+-----------------------------------*/
+footer {
+    background: #EC008C;
+    color: #F0C2DB;
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display: inline-block;
+}
+.socials img{
+    width: 32px;
+
 }
