@@ -28,9 +28,9 @@ html {
  
  
  body {
-    /* font-size: 1.6rem;*/
+    font-size: 1.6rem;
     /* font-size 1.6rem is now the same as 16px */
-    /*line-height: 1.6;*/
+    line-height: 1.6;
     background-color: black;
     color: white;
  }
@@ -40,9 +40,9 @@ html {
     background-color: aquamarine;
     text-align: center;
  }
-  main {
 
-  }
+ main {}
+ 
 .image-div{
    display: inline-block;
 }
