@@ -1,10 +1,10 @@
 .gray-box {
-    background-color: rgb(71, 68, 68); /* Gray background color */
-    color: white; /* Text color */
-    padding: 20px; /* Add some padding */
-    border-radius: 5px; /* Optional: rounded corners */
-    margin: 20px auto; /* Center the box horizontally with auto margin */
-    text-align: center; /* Center the text */
+    background-color: rgb(71, 68, 68); 
+    color: white; 
+    padding: 20px; 
+    border-radius: 5px; 
+    margin: 20px auto; 
+    text-align: center; 
 }
 .sender {
     display: flex; 
@@ -21,7 +21,7 @@
     justify-content: flex-end; 
     align-items: center; 
     background-color: blue;
-    inline-size: 10%; /* You may want to adjust this as needed */
+    inline-size: 10%; 
     color: white;
     padding: 10px; 
     border-radius: 3px;
@@ -53,7 +53,7 @@ a:hover {
     justify-content: flex-end; 
     align-items: center; 
     background-color: lightblue;
-    inline-size: 20%; /* You may want to adjust this as needed */
+    inline-size: 20%; 
     color: white;
     padding: 10px; 
     border-radius: 3px;
