@@ -16,6 +16,17 @@
     padding: 10px; 
     border-radius: 3px;
 }
+.lasttext {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    background-color: blue;
+    inline-size: 10%; /* You may want to adjust this as needed */
+    color: white;
+    padding: 10px; 
+    border-radius: 3px;
+    margin-left: auto; 
+}
 
 p {
     margin: 0; 
@@ -27,17 +38,26 @@ p {
     justify-content: flex-end; 
     align-items: center; 
     padding: 10px; 
+    width: 100%;
 }
 a {
+
     text-decoration: none;
     color: transparent;
     padding: 5px; 
     border-radius: 3px; 
 }
 
-a:hover { 
+a:hover {  
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
     background-color: lightblue;
+    inline-size: 20%; /* You may want to adjust this as needed */
     color: white;
-    
+    padding: 10px; 
+    border-radius: 3px;
+    margin-left: auto; 
+
     
 }
