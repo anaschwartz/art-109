@@ -41,7 +41,9 @@ html {
     text-align: center;
  }
 
- main {}
+ main {
+
+ }
  
 .image-div{
    display: inline-block;
@@ -59,7 +61,7 @@ html {
    right: 20vw;
 }
 #noki_side {
-   position: fixed;
+   position: absolute;
    top: 20px;
    left: 150vw;
 }
